@@ -1,20 +1,18 @@
 # 🚀 Démarrage Rapide
 
-Bienvenue! Ce template vous permet de créer un projet de recherche complet en 5-20 minutes.
+Bienvenue! Ce template vous permet de créer un projet de recherche complet en 5-10 minutes.
 
 ## Étapes
 
-### 1. Choisir Votre Prompt
+### 1. Utiliser le Prompt
 
-Deux options:
-- **`QUICK_PROMPT.md`** (5-10 min) - Pour projets standards
-- **`PROMPT_TEMPLATE.md`** (15-20 min) - Pour projets complexes ou premier usage
+Ouvrir **`QUICK_PROMPT.md`** - Setup complet en 5-10 minutes
 
-**Pas sûr?** Lisez `PROMPTS_INDEX.md`
+**Besoin d'aide pour choisir?** Lisez `PROMPTS_INDEX.md`
 
 ### 2. Utiliser dans Claude Code
 
-1. Ouvrir le prompt choisi
+1. Ouvrir QUICK_PROMPT.md
 2. Copier TOUT le contenu
 3. Coller dans Claude Code
 4. Remplir les informations sur votre projet
@@ -22,7 +20,7 @@ Deux options:
 
 ### 3. Ce Qui Sera Créé
 
-- ✅ Structure de dossiers adaptée
+- ✅ Structure de dossiers adaptée à votre projet
 - ✅ 11 agents dans `.claude/agents/`
 - ✅ Documentation complète
 - ✅ Scripts de configuration
@@ -32,7 +30,7 @@ Deux options:
 
 Une fois le setup créé:
 ```bash
-./init_project.sh  # Initialiser l'environnement
+./init_project.sh  # Initialiser l'environnement Python
 @gardien_projet Où en sommes-nous?  # Utiliser les agents
 ```
 
@@ -53,7 +51,7 @@ Agents créés automatiquement:
 
 ## 📚 Documentation
 
-- **Guides complets**: `USING_PROMPTS.md`
+- **Guide complet**: Voir README.md sur GitHub
 - **Copier vers autre projet**: `COPIER_NOUVEAU_PROJET.txt`
 
 ## ⚡ TL;DR
